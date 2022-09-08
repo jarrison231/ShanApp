@@ -57,7 +57,7 @@
         android:layout_width="112dp"
         android:layout_height="50dp"
         android:layout_marginTop="60dp"
-        android:text="     Iconds"
+        android:text="     Icons"
         app:layout_constraintTop_toBottomOf="@+id/textView3"
         tools:layout_editor_absoluteX="62dp" />
 

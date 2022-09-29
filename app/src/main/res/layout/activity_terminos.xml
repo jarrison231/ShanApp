@@ -4,38 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffe082"
-    tools:context=".MainActivity"
-    ><![CDATA[
-
-
-
-
-    "#ffe083"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="89dp" />
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    ]]>
+    tools:context=".TerminosActivity">
 
     <TextView
         android:layout_width="414dp"
@@ -89,7 +58,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.976"
-        app:srcCompat="@drawable/wiu" />
+        app:srcCompat="@drawable/wiu"
+        android:contentDescription="TODO" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -134,10 +104,10 @@
         android:layout_height="129dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.584"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.599"
+        app:layout_constraintVertical_bias="0.591"
         app:srcCompat="@drawable/library" />
 
     <ImageView
@@ -150,7 +120,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.895"
-        app:srcCompat="@drawable/book" />
+        app:srcCompat="@drawable/book"
+        android:contentDescription="TODO" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -162,7 +133,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.144"
-        app:srcCompat="@drawable/eschool" />
+        app:srcCompat="@drawable/eschool"
+        android:contentDescription="TODO" />
 
     <ImageView
         android:id="@+id/imageView11"
@@ -174,7 +146,8 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.848"
-        app:srcCompat="@drawable/libraryj" />
+        app:srcCompat="@drawable/libraryj"
+        android:contentDescription="TODO" />
 
     <ImageView
         android:id="@+id/imageView5"
@@ -188,6 +161,5 @@
         app:layout_constraintVertical_bias="0.01"
         app:srcCompat="@drawable/menu"
         android:contentDescription="imagen_menu" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

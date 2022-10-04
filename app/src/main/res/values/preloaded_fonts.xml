@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/</item>
+        <item>@font/adamina</item>
+        <item>@font/averia_libre_light</item>
+        <item>@font/baloo_da</item>
+        <item>@font/balsamiq_sans</item>
+        <item>@font/enriqueta</item>
+    </array>
+</resources>

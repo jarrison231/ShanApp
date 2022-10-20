@@ -24,7 +24,7 @@
         android:layout_width="232dp"
         android:layout_height="100dp"
         android:layout_gravity="right"
-        android:background="#31C67D"
+        android:background="@color/secondaryDarkColor"
         android:fontFamily="@font/alata"
         android:text="Terminos y condiciones"
         android:textColor="#090909"
@@ -92,7 +92,7 @@
         android:id="@+id/imageView8"
         android:layout_width="41dp"
         android:layout_height="40dp"
-        android:contentDescription="TODO"
+        android:contentDescription="libretas "
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.956"
@@ -124,7 +124,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.895"
         app:srcCompat="@drawable/book"
-        android:contentDescription="TODO" />
+        android:contentDescription="biblioteca" />
 
     <ImageView
         android:id="@+id/imageView10"

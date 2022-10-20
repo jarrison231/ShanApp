@@ -40,19 +40,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
+
     <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="262dp"
-        android:layout_height="260dp"
-        android:background="#ffe082"
-        android:contentDescription="TODO"
+        android:id="@+id/imageView2"
+        android:layout_width="264dp"
+        android:layout_height="276dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.662"
-        app:srcCompat="@drawable/circulo5" />
+        app:layout_constraintVertical_bias="0.76"
+        app:srcCompat="@drawable/circulo" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -64,7 +62,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.632"
+        app:layout_constraintVertical_bias="0.72"
         app:srcCompat="@drawable/wuwu" />
 
 

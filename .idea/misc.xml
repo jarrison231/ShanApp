@@ -9,6 +9,7 @@
         <entry key="..\:/AndroidStudioProjects/ShanApp/app/src/main/res/drawable/circulo5.xml" value="0.126" />
         <entry key="..\:/AndroidStudioProjects/ShanApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1325" />
         <entry key="..\:/AndroidStudioProjects/ShanApp/app/src/main/res/drawable/logo_pluma.xml" value="0.204" />
+        <entry key="..\:/AndroidStudioProjects/ShanApp/app/src/main/res/layout/activity_icons.xml" value="0.33" />
         <entry key="..\:/AndroidStudioProjects/ShanApp/app/src/main/res/layout/activity_main.xml" value="0.22" />
         <entry key="..\:/Users/A3 PC01/AndroidStudioProjects/Shan/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
@@ -19,5 +20,12 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.33" />
+      </ProjectState>
+    </option>
   </component>
 </project>

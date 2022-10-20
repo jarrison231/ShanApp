@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Shan">
         <activity
-            android:name=".TerminosActivity"
+            android:name=".InformacionPersonalActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

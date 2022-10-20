@@ -4,8 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
-
+    tools:context=".Pantallla_Presentacion">
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
@@ -133,4 +132,5 @@
         android:textSize="19sp"
         app:layout_constraintStart_toEndOf="@+id/imageView6"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

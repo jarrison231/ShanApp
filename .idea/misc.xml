@@ -5,11 +5,12 @@
       <map>
         <entry key="..\:/AndroidStudioProjects/ShanApp/app/src/main/res/drawable/circulo.xml" value="0.156" />
         <entry key="..\:/AndroidStudioProjects/ShanApp/app/src/main/res/layout/activity_main.xml" value="0.19635416666666666" />
+        <entry key="..\:/AndroidStudioProjects/ShanApp/app/src/main/res/layout/activity_pantallla_presentacion.xml" value="0.19635416666666666" />
         <entry key="..\:/Users/A3 PC01/AndroidStudioProjects/Shan/app/src/main/res/layout/activity_main.xml" value="0.25" />
       </map>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>
   <component name="ProjectType">

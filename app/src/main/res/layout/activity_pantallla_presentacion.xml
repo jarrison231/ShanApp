@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffe082"
     tools:context=".Pantallla_Presentacion">
     <TextView
         android:id="@+id/textView"
@@ -37,14 +38,7 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.318" />
 
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="262dp"
-        android:layout_height="260dp"
-        android:layout_marginStart="4dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView7"
-        app:layout_constraintTop_toBottomOf="@+id/imageView8"
-        app:srcCompat="@drawable/circulo" />
+
 
     <ImageView
         android:id="@+id/imageView2"
@@ -55,19 +49,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:srcCompat="@drawable/graduacion" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="161dp"
-        android:layout_height="175dp"
-        android:background="#DB8B2E"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.528"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.643"
-        app:srcCompat="@drawable/plumis" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -83,21 +64,13 @@
         android:id="@+id/imageView5"
         android:layout_width="87dp"
         android:layout_height="94dp"
-        android:layout_marginStart="209dp"
-        android:layout_marginTop="18dp"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:srcCompat="@drawable/diccionario" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="83dp"
-        android:layout_height="96dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.07"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:srcCompat="@drawable/lapiz" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.885"
+        app:srcCompat="@drawable/diccionario" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -119,18 +92,57 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView4"
         app:srcCompat="@drawable/libros" />
 
+    <ImageView
+        android:id="@+id/imageView14"
+        android:layout_width="274dp"
+        android:layout_height="266dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.692"
+        app:srcCompat="@drawable/circulo5" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="161dp"
+        android:layout_height="175dp"
+        android:background="#DB8B2E"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.528"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.643"
+        app:srcCompat="@drawable/plumis" />
+
     <Button
         android:id="@+id/button"
         android:layout_width="135dp"
         android:layout_height="68dp"
         android:backgroundTint="#21DB87"
-        android:layout_marginStart="45dp"
-        android:layout_marginTop="45dp"
         android:text="Empezar"
         android:textColor="#000000"
-        app:cornerRadius="20dp"
         android:textSize="19sp"
-        app:layout_constraintStart_toEndOf="@+id/imageView6"
-        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.518"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.96" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="83dp"
+        android:layout_height="96dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.951"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.866"
+        app:srcCompat="@drawable/lapiz" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

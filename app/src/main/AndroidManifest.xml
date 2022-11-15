@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Shan">
         <activity
+            android:name=".pantalla_juego"
+            android:exported="false" />
+        <activity
             android:name=".Pantallla_Presentacion"
             android:exported="false" />
         <activity

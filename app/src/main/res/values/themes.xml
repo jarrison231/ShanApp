@@ -9,9 +9,9 @@
         <item name="colorSecondary">@color/secondaryColor</item>
         <item name="colorSecondaryVariant">@color/secondaryLightColor</item>
         <item name="colorOnSecondary">@color/secondaryDarkColor</item>
-        <!-- Status bar color. -->
-        <!-- Customize your theme here. -->
-        <item name="android:background">android:background="#ffe082"</item>
+
+
+
         <item name="android:textColor">#07000B</item>
     </style>
-</resources>z
+</resources>

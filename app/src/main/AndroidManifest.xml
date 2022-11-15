@@ -14,15 +14,37 @@
             android:exported="false" />
         <activity
             android:name=".Pantallla_Presentacion"
-            android:exported="false" />
+            android:exported="true" />
+        <activity
+            android:name=".activity_test"
+            android:exported="true"/>
+
+        <activity
+            android:name=".InformacionPersonalActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".TerminosActivity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".icons_Activity"
+            android:exported="true"/>
+
+        <activity
+            android:name=".Pantalla_Examen"
+            android:exported="true"/>
+
         <activity
             android:name=".MainActivity"
             android:exported="true">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+
         </activity>
 
         <meta-data

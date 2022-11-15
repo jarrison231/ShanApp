@@ -105,9 +105,8 @@
 
     <EditText
         android:id="@+id/editTextTextMultiLine2"
-        android:layout_width="330"
+        android:layout_width="330dp"
         android:layout_height="wrap_content"
-        android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
         android:text="Icons"
@@ -124,10 +123,10 @@
         android:id="@+id/editTextTextEmailAddress"
         android:layout_width="330dp"
         android:layout_height="wrap_content"
-        android:ems="36"
+
         android:inputType="textEmailAddress"
         android:text="Edad"
-        android:textSize="23dp"
+        android:textSize="23sp"
         app:fontFamily="@font/adamina"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -136,9 +135,8 @@
 
     <EditText
         android:id="@+id/editTextTextMultiLine"
-        android:layout_width="330"
+        android:layout_width="330dp"
         android:layout_height="wrap_content"
-        android:ems="10"
         android:gravity="start|top"
         android:inputType="textMultiLine"
         android:text="Nombre"

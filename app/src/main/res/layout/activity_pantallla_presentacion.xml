@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffe082"
+    android:background="@color/primaryColor"
     tools:context=".Pantallla_Presentacion">
     <TextView
         android:id="@+id/textView"
@@ -78,7 +78,7 @@
         android:layout_height="100dp"
         android:layout_marginTop="167dp"
         android:layout_marginEnd="3dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView"
+
         app:layout_constraintTop_toBottomOf="@+id/imageView2"
         app:srcCompat="@drawable/notas" />
 
@@ -102,7 +102,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.692"
-        app:srcCompat="@drawable/circulo5" />
+        app:srcCompat="@drawable/circulo" />
 
     <ImageView
         android:id="@+id/imageView3"

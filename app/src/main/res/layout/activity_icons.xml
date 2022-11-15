@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffe082"
+    android:background="@color/primaryColor"
     tools:context=".icons_Activity">
 
     <TextView
@@ -25,7 +25,7 @@
         android:id="@+id/imageView4"
         android:layout_width="346dp"
         android:layout_height="440dp"
-        android:background="#ffe082"
+        android:background="@color/primaryColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.492"
@@ -61,7 +61,7 @@
     <ImageView
         android:id="@+id/imageView6"
         android:layout_width="104dp"
-        android:layout_height="107"
+        android:layout_height="107dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.853"
@@ -197,7 +197,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.589"
-        app:srcCompat="@drawable/cuadro" />
+         />
 
     <ImageView
         android:id="@+id/imageView18"
@@ -209,7 +209,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.43"
-        app:srcCompat="@drawable/cuadro" />
+      />
 
     <ImageView
         android:id="@+id/imageView19"
@@ -221,7 +221,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.275"
-        app:srcCompat="@drawable/cuadro" />
+         />
 
     <ImageView
         android:id="@+id/imageView20"
@@ -233,7 +233,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.738"
-        app:srcCompat="@drawable/cuadro" />
+      />
 
     <ImageView
         android:id="@+id/imageView21"
@@ -245,7 +245,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.589"
-        app:srcCompat="@drawable/cuadro" />
+         />
 
     <ImageView
         android:id="@+id/imageView22"
@@ -257,7 +257,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.43"
-        app:srcCompat="@drawable/cuadro" />
+         />
 
     <ImageView
         android:id="@+id/imageView23"
@@ -269,7 +269,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.275"
-        app:srcCompat="@drawable/cuadro" />
+        />
 
     <ImageView
         android:id="@+id/imageView24"
@@ -281,7 +281,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.275"
-        app:srcCompat="@drawable/cuadro" />
+       />
 
     <ImageView
         android:id="@+id/imageView25"
@@ -293,7 +293,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.43"
-        app:srcCompat="@drawable/cuadro" />
+         />
 
     <ImageView
         android:id="@+id/imageView26"
@@ -305,7 +305,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.583"
-        app:srcCompat="@drawable/cuadro" />
+         />
 
     <ImageView
         android:id="@+id/imageView27"
@@ -317,7 +317,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.738"
-        app:srcCompat="@drawable/cuadro" />
+      />
 
 
     <Button
